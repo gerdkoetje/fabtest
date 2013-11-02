@@ -3,6 +3,8 @@ from fabtools import require
 import fabtools
 from fabtools.system import distrib_id, distrib_release
 
+
+
 def initial_setup():
     env.host_string = ''
     env.user  = 'root'
